@@ -1,9 +1,14 @@
 module.exports = {
+  darkMode: true,
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'blue-black': '#1e293b',
+      }
+    },
   },
   plugins: [],
 }
